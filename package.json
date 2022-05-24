@@ -1,0 +1,17 @@
+{
+  "name": "merkle-hash-generator",
+  "version": "1.0.0",
+  "description": "A tool for generating a merkle hash from an address set",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "ethers": "^5.6.7",
+    "keccak256": "^1.0.6",
+    "merkletreejs": "^0.2.31"
+  }
+  , 
+  "scripts": {
+	  "run": "node index.js",
+	  "dev": "node index.js"
+  }
+}
